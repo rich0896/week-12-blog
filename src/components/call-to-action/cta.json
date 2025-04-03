@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_call_to_action_ctas",
+  "info": {
+    "displayName": "cta",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "ctaHeading": {
+      "type": "string",
+      "required": true
+    },
+    "ctaSubHeading": {
+      "type": "text"
+    },
+    "ctaBgColour": {
+      "type": "string",
+      "required": true
+    },
+    "ctaBtnText": {
+      "type": "string",
+      "required": true
+    },
+    "ctaBtnUrl": {
+      "type": "string",
+      "required": true
+    },
+    "ctaIsExternal": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "ctaBtnBgColour": {
+      "type": "string",
+      "required": true
+    },
+    "ctaImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
